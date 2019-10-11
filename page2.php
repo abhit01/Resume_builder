@@ -1,0 +1,83 @@
+<?php
+session_start();
+$x=$_SESSION['tuser'];
+?>
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+
+	<title>Almabay Resume Builder</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylemain.css">
+</head>
+<body>
+  
+<div class="container-fluid text-center bg-grey">
+  <h2>CHOOSE FROM THE OPTIONS BELOW</h2>
+  <h4>Here you go</h4>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+      
+        <p><a href="page3.php"><strong>CREATE CV</strong></a></p>
+        <p>Our professional resume templates are designed strictly following all industry guidelines and best practices
+		employers are looking for.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        
+        <p><strong> <a href="update.php">UPDATE CV</a></strong></p>
+        <p>Not finding the right words to showcase yourself? We´ve added thousands of pre-written examples and resume samples.As easy as a click.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        
+        <p><a href="choosetemp.php"><strong>SHOW CV</strong></a></p>
+        <p>Start impressing employers. Download your awesome resume and land the job you are looking for, effortlessly.All the best from Almabay team.</p>
+      </div>
+    </div>
+</div>
+
+
+
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="company.php">ALMABAY <b>RB</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://blog.almabay.com/">JOBS</a></li>
+        <li><a href="https://www.almabay.com/jobs/search">BLOG</a></li>
+        <li><a href="page2.php">BUILD RESUME</a></li>
+        <li><a href="register.php">REGISTER</a></li>
+        <li><a href="login.php">SIGN IN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+ <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div id="about" class="container-fluid">
+<div id="services" class="container-fluid">
+<div id="portfolio" class="container-fluid">
+<div id="pricing" class="container-fluid">
+<div id="contact" class="container-fluid"> 
+
+
+</body>
+</html>
+
